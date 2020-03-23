@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>HOME</title>
+    <link rel="stylesheet" href="./css/Index.css">
+</head>
+<body>
+     <div class="view-area">
+       <div class="name-sec">
+       <label id="name-game">GAME NAME</label>
+       </div>
+       <div class="action-btn">
+         <input type="button" id="select-players" value="Selecionar Jogadores" ontouchstart="actionPage(0)">
+         <input type="button" id="add-player" value="Novo Jogador" ontouchstart="actionPage(1)">
+       </div>
+     <div class="player-anim"></div>
+     </div>
+     
+     <div class="add-player">
+      <label> ADICIONAR NOVOS PLAYERS </label>
+      <input type="button" id="close-add-players" ontouchstart="actionPage(2)">
+     </div>
+     <script src="./scripts/add-player.js"></script>
+</body>
+</html>
